@@ -1,0 +1,48 @@
+.productCard {
+  border: none;
+  box-shadow: 0px 0px 10px #eee;
+  display: flex;
+  flex-direction: column;
+  min-height: 63vh;
+  min-width: 305px;
+  margin: 2vh 10px 5vh 10px;
+  .details {
+    padding: 10px;
+    .company {
+      color: var(--green);
+      font-family: 'Poppins';
+      font-size: 15px;
+      margin-top: 4px;
+    }
+    .name {
+      font-family: 'Poppins';
+    }
+    .description {
+      color: gray;
+      font-family: 'Open Sans';
+      font-size: 15px;
+    }
+    .price {
+      font-family: 'Poppins';
+      font-size: 15px;
+      margin: 5px 0px;
+      color: var(--red);
+    }
+
+    .other {
+        margin-top: 10%;
+        button{
+            font-family: "Poppins";
+            margin: 0px 10px;
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+  }
+  .image {
+    img {
+      height: 32vh;
+      width: 100%;
+    }
+  }
+}

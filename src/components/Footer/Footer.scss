@@ -1,0 +1,23 @@
+.footer{
+    min-height: 50vh;
+    margin-top: 5vh;
+    background-color: var(--danger);
+    color: white;
+    font-family: Poppins;
+    padding: 20px;
+
+    .footerContent{
+        width: 90vw;
+        margin: auto;
+        
+    }
+    .items{
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 5px 0px;
+        }
+        display: flex;
+        flex-direction: column;
+    }
+}

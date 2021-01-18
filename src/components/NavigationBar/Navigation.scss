@@ -1,0 +1,53 @@
+.navigationBar {
+  padding: 10px;
+  .navContents {
+    display: flex;
+    width: 95vw;
+    margin: auto;
+    position: relative;
+    .logo {
+      width: 90vw;
+      display: flex;
+      h3 {
+        font-family: 'Poppins';
+        align-self: center;
+      }
+      input {
+        background-color: #f9fafb;
+        outline: none;
+        padding: 10px;
+        border: none;
+        font-family: 'Playfair Display';
+        width: 60vw;
+        border-radius: 5px;
+        margin: 10px 0px 0px 8vw;
+      }
+    }
+
+    .icons {
+      float: right;
+      width: 20vw;
+      display: flex;
+      align-content: center;
+      margin-top: 2px;
+      justify-content: center;
+      svg {
+        margin: 10px;
+      }
+      .user {
+        h6 {
+          color: #aaa;
+          font-family: 'Poppins';
+          font-weight: 300;
+          font-size: 14px;
+          margin-top: 10px;
+          margin-bottom: -5px;
+        }
+        p {
+          font-family: 'Poppins';
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

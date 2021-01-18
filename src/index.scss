@@ -1,0 +1,54 @@
+@import "utilities/scss/_variables.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: $primary-font;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  font-family: "Poppins";
+}
+
+button {
+  font-family: $primary-font;
+  transition: 0.3s;
+  outline: none;
+}
+
+.primaryButton {
+  background-color: $red;
+  color: white;
+  border: 1px solid $red;
+  border-radius: 5px;
+  padding: 20px;
+  &:hover {
+    background-color: white;
+    border: 1px solid $red;
+    color: $red;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.secondaryButton {
+  background-color: white;
+  color: $red;
+  border: 1px solid $red;
+  border-radius: 5px;
+  padding: 20px;
+  &:hover {
+    background-color: $red;
+    border: 1px solid $red;
+    color: white;
+  }
+}

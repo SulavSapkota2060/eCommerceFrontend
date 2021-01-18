@@ -1,0 +1,58 @@
+$blue: rgb(94, 114, 228) !default;
+$indigo: #5603ad !default;
+$purple: #8965e0 !default;
+$pink: rgb(243, 164, 181) !default;
+$red: rgb(245, 54, 92) !default;
+$orange: #fb6340 !default;
+$yellow: #ffd600 !default;
+$green: rgb(45, 206, 137) !default;
+$teal: #11cdef !default;
+$cyan: #2bffc6 !default;
+$gray: #f9fafb !default;
+
+$default: #344675 !default;
+$primary: #e14eca !default;
+$secondary: #f4f5f7 !default;
+$success: rgb(0, 242, 195) !default;
+$info: #1d8cf8 !default;
+$warning: #ff8d72 !default;
+$danger: #fd5d93 !default;
+$black: #222a42 !default;
+
+$default-states: #263148 !default;
+$primary-states: #ba54f5 !default;
+$success-states: #0098f0 !default;
+$info-states: #3358f4 !default;
+$warning-states: #ff6491 !default;
+$danger-states: #ec250d !default;
+$black-states: #1d253b !default;
+
+$facebook: #3b5998 !default;
+$facebook-states: darken($facebook, 5%) !default;
+$twitter: #55acee !default;
+$twitter-states: darken($twitter, 5%) !default;
+$google-plus: #dd4b39 !default;
+$google-plus-states: darken($google-plus, 5%) !default;
+$instagram: #125688 !default;
+$instagram-states: lighten($instagram, 6%) !default;
+$linkedin: #0077b5 !default;
+$linkedin-states: darken($linkedin, 5%) !default;
+$pinterest: #cc2127 !default;
+$pinterest-states: lighten($pinterest, 6%) !default;
+$youtube: #e52d27 !default;
+$youtube-states: lighten($youtube, 6%) !default;
+$dribbble: #ea4c89 !default;
+$dribbble-states: lighten($dribbble, 6%) !default;
+$github: #333333 !default;
+$github-states: #ccc !default;
+$reddit: #ff4500 !default;
+$reddit-states: lighten($reddit, 6%) !default;
+$tumblr: #35465c !default;
+$tumblr-states: lighten($tumblr, 6%) !default;
+$behance: #1769ff !default;
+$behance-states: lighten($behance, 6%) !default;
+
+/* FONT FAMILIES */
+
+$primary-font: 'Poppins';
+$secondary-font: 'Playfair Display'

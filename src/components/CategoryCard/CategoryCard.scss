@@ -1,0 +1,25 @@
+.categoryCard {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px #eee;
+  margin: 4px;
+  padding: 10px;
+
+  .image {
+    img {
+      height: 30vh;
+      width: 100%;
+    }
+  }
+  .detail {
+    align-self: center;
+    h1{
+      font-family: "Playfair Display";
+    }
+    button {
+      padding: 10px;
+      font-family: 'Poppins';
+      font-size: 12px;
+    }
+  }
+}

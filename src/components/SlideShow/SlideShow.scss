@@ -1,0 +1,80 @@
+@import '../../utilities/scss/_variables.scss';
+
+.slideShow {
+  width: 100%;
+  margin: 1vh 0vw;
+  display: flex;
+  height: 80vh;
+  padding: 20px;
+  background-color: #F9FAFB;
+  grid-gap: 20px;
+
+  .details {
+    font-family: $primary-font;
+    align-self: center;
+    justify-content: center;
+    margin: 0px 10%;
+    .productName {
+      font-size: 90px;
+      color: black;
+    }
+    .productDescription {
+      font-size: 20px;
+      font-family: 'Playfair Display';
+      color: #bfc5ce;
+      width: 100%;
+    }
+    .productPrice {
+      font-size: 20px;
+      color: $red;
+    }
+    .company {
+      color: $green;
+      font-family: "Playfair Display";
+    }
+    .primaryButton {
+      margin-top: 10px;
+    }
+  }
+  .image {
+    align-self: center;
+    margin: 0px 30px;
+    img {
+      height: 50vh;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .slideShow {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .details{
+    .productDescription{
+      display: none;
+    }
+    .productName{
+      font-size: 20px;
+    }
+  }
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
